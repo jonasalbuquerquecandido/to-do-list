@@ -5,15 +5,23 @@
 }
 
 :root {
-    --light-balck-color: #1F1F1F;
+    --light-black-color: #1f1f1f;
     --dark-back-color: #181818;
-    --light-blue-color: #788CDE;
+    --defaut-blue-color: #788CDE;
+    --dark-blue-color: #788ddeaf;
+    --light--blue-color:#516de0fb;
     --light-white-color: #ffffff;
     
-    --border-radius: 0.7rem;
+    --border-radius: 0.4rem;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
+    font-size: 3rem;
     text-align: center;
 
 }
@@ -24,25 +32,54 @@ h1 {
 }
 
 #list {
-    background-color: var(--light-balck-color);
-    height: 10rem;
+    background-color: var(--light-black-color);
+    height: 13rem;
     width: 25rem;
     border-radius: var(--border-radius);
     padding: 1rem;
 }
 
 #list input {
-    width: 78%;
+    width: 76%;
+    height: 2rem;
+    border: 1.4px solid var(--defaut-blue-color);
+    padding-left: 1rem;
+    
+    font-size: 18px;
 }
 
 #list button {
-    width: 20%;
-    background: var(--light-blue-color);
+    width: 22%;
+    height: 2rem;
+    font-size: 18px;
+    background: var(--defaut-blue-color);
     color: var(--light-white-color);
-    font-weight: bold ;
-    padding: 0. 0.3rem;
+
+    cursor: pointer;
+    
+    border:  solid var(--light-blue-color)
 }
 
+#list button:hover {
+    background: var(--dark-blue-color);
+    border: 1.4px solid var(--dark-blue-color);
+    transition: 0.5s;
+}
 
+#list button:active {
+    background: var(--light-blue-color);
+}
 
+#list ul {
+    padding: 0.5rem 0;
+    list-style: none;
+}
+
+#list li {
+    background-color: white;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 99%;
+    border-radius: 0.1rem;
+}
 
