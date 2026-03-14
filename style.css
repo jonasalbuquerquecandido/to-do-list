@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-balck-color: #1F1F1F;
+    --dark-back-color: #181818;
+    --light-blue-color: #788CDE;
+    --light-white-color: #ffffff;
+    
+    --border-radius: 0.7rem;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+#list-container {
+    display: flex;
+    justify-content: center;
+}
+
+#list {
+    background-color: var(--light-balck-color);
+    height: 10rem;
+    width: 25rem;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+
+#list input {
+    width: 78%;
+}
+
+#list button {
+    width: 20%;
+    background: var(--light-blue-color);
+    color: var(--light-white-color);
+    font-weight: bold ;
+    padding: 0. 0.3rem;
+}
+
+
+
+
