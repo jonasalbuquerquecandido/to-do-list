@@ -81,5 +81,8 @@ h1 {
     margin: 0.5rem 0;
     width: 99%;
     border-radius: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
 }
 
