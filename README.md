@@ -20,7 +20,7 @@ O objetivo do projeto é praticar **manipulação do DOM, eventos e lógica de p
 * ✔️ Marcar tarefas como concluídas
 * ❌ Remover tarefas da lista
 * 📋 Atualização dinâmica da lista de tarefas
-* 💾 Salvamento das tarefas no navegador usando **localStorage** *(se você implementar)*
+* 💾 Salvamento das tarefas no navegador usando **localStorage** 
 
 ---
 
@@ -34,22 +34,6 @@ Este projeto foi desenvolvido para treinar conceitos fundamentais de desenvolvim
 * Estruturação de código
 * Interatividade em aplicações web
 * Persistência de dados no navegador *(localStorage)*
-
----
-
-## 📷 Demonstração
-
-*(adicione aqui um screenshot ou gif do projeto quando estiver pronto)*
-
----
-
-## 🌐 Acesse o projeto
-
-Se você publicar o projeto:
-
-```
-https://seuusuario.github.io/todo-list-js
-```
 
 ---
 
@@ -81,7 +65,7 @@ Desenvolvido por **Jonas**
 Estudante de desenvolvimento web.
 
 GitHub:
-https://github.com/seuusuario
+https://github.com/jonasalbuquerquecandido
 
 ---
 
