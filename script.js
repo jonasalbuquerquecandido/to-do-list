@@ -16,5 +16,4 @@ function adicionar() {
 
 function deletarTarefa(li) {
     li.parentElement.remove(li)
-
 }
